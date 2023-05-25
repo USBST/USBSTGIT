@@ -12,7 +12,7 @@ public class SearchPgm {
   @Test
   public void Search() {
 	  driver.get("https://www.google.com");
-	  driver.findElement(By.name("q")).sendKeys("maven");
+	  driver.findElement(By.name("q")).sendKeys("Selenium");
   }
   @BeforeTest
   public void beforeTest() {
